@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: haversine
+Version: 0.4.5
+Summary: Calculate the distance bewteen 2 points on Earth.
+Home-page: https://github.com/mapado/haversine
+Author: Julien Deniau
+Author-email: ['julien.deniau@mapado.com']
+License: ['MIT']
+Description: Haversine
+        ---------
+        
+        Calculate the distance (in km or in miles) bewteen two points on Earth,
+        located by their latitude and longitude.
+        
+        
+        Example: distance bewteen Lyon and Paris
+        
+        >>> from haversine import haversine
+        >>> lyon = (45.7597, 4.8422)
+        >>> paris = (48.8567, 2.3508)
+        >>> haversine(lyon, paris)
+        392.00124794121825  # in kilometers
+        >>> haversine(lyon, paris, miles=True)
+        243.589575470673  # in miles
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Scientific/Engineering :: Mathematics
