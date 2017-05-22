@@ -32,7 +32,7 @@ calculates distance on the ellipsoid (using WGS84 datum values
 for semi-major and semi-minor axis lengths). Note that the
 Haversine method is significantly faster than the Vincenty
 method, roughly 6x-8x.
-* **Smooth output polygons" passes through to the Raster to
+* **Smooth output polygons** passes through to the Raster to
 Polygon tool at the end of the process.
 
 ## Environment variables
