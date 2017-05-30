@@ -208,7 +208,7 @@ for r in range(rasterHeight):
                             haversine(checkPoints[i]["coords"], (rowLats[r], colLngs[c]))
                             / checkPoints[i]["val"]
                            )
-            elif distMethod == "Vincety":
+            elif distMethod == "Vincenty":
                 curScore = (
                             vincenty(checkPoints[i]["coords"], (rowLats[r], colLngs[c]))
                             / checkPoints[i]["val"]
